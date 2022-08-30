@@ -35,3 +35,37 @@
     width: 200px;
     padding-right: 10px;
 }
+.round{
+    border-radius: 5px;
+    float: left;
+    width:50px;
+    border:5px solid #e5383b;
+    margin-left: 350px;
+    margin-top: 0;
+}
+
+.big-title{
+    font-size:50px;
+    margin-left: 350px;
+    font-family: 'Poppins';
+}
+.title{
+    color: #e5383b;
+    margin-left: 350px;
+    font-family: 'Poppins';
+}
+
+p{
+    font-family: 'Poppins';
+    text-align: justify;
+    text-justify: inter-word;
+}
+#about{
+    margin-left: 350px;
+    width: 750px;
+}
+.hero-img{
+    width: 23%;
+    float: right;
+    margin-right: 40px;
+}
