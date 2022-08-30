@@ -1,23 +1,23 @@
 /*The side navigation bar*/
 .sidenav{
     height: 100%;
-    width: 300px    ;
+    width: 300px; /*How wide the side bar will be*/
     position: fixed;
     z-index: 1;
     top: 0; /* Stay at the top */
     left: 0;
-    background-color: #343a40;
+    background-color: #343a40;  /*Colour of the side bad*/
     overflow-x: hidden; /* Disable horizontal scroll */
-    font-family: 'Poppins';
+    font-family: 'Poppins'; /*The font that will be used*/
     padding-top: 200px;
 }
 
 /*Side bar navigation links*/
 .sidenav a {
-    padding: 20px 6px 6px 32px;
+    padding: 20px 6px 6px 32px;     /*Padding of each link*/
     text-decoration: none;
     font-size: 25px;
-    color: white;
+    color: white;               /*Colour of the text for the links*/
     display: block;
 }
 
