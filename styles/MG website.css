@@ -15,8 +15,8 @@
 /*Side bar navigation links*/
 .sidenav a {
     padding: 20px 6px 6px 32px;     /*Padding of each link*/
-    text-decoration: none;
-    font-size: 25px;
+    text-decoration: none;          /*Removes the underline under each link*/
+    font-size: 25px;                /*Size of the text*/
     color: white;               /*Colour of the text for the links*/
     display: block;
 }
