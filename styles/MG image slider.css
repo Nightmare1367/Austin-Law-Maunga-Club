@@ -1,8 +1,8 @@
-#slider{
+#slider{                                    /*Disables the horizontal scroll*/
     overflow: hidden;
 }
 
-#slider figure{
+#slider figure{                             /*Styling for the images*/
     position: relative;
     width:500%;
     left:0;
@@ -10,12 +10,12 @@
     animation: 20s slider infinite
 }
 
-#slider figure img{
+#slider figure img{                         /*Additional Styling for the images*/
     width: 20%;
     float: left;
 }
 
-@keyframes slider {
+@keyframes slider {                         /*Used to determine which image shows at each slide*/
     0%{
         left: 0;
     }

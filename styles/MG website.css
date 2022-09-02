@@ -37,10 +37,13 @@ html{                               /*Setting the wesbite dimensions after addin
     color: white;               /*Colour of the text for the links*/
     display: block;
 }
+
+/*When hovering on the buttons on the side navigation bar*/
 .sidenav a:hover{
     background-color: #4f565c;
 }
 
+/*Dimensions for the Maunga Club Logo*/
 .logo{
     width: 200px;
     padding-right: 10px;
@@ -59,53 +62,51 @@ html{                               /*Setting the wesbite dimensions after addin
     border:5px solid #e5383b;
 }
 
-.big-title{
+/*Styling for the text*/
+.big-title{                     /*Styling for my Maunga Club when you enter the page*/
     font-size:50px;
     font-family: 'Poppins';
 }
-.title{
+
+.title{                         /*Styling for the title of each section*/
     color: #e5383b;
     font-size: 40px;
     font-family: 'Poppins';
     text-align: left;
     margin: 0 0 0 0;
 }
-.subtitle{
+
+.subtitle{                      /*Styling for the chalets*/
     color: #e5383b;
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Poppins';
     margin: 0 0 0 0;
-    padding-top: 50px;
+    padding-top: 20px;
 }
 
-p{
+p{                              /*Styling for my paragraphs*/
     padding-top: 10px;
     font-family: 'Poppins';
     text-align: justify;
     text-justify: inter-word;
 }
 
-.info{
+h3{                             /*Styling for text when informing users of the chalet features*/
+    font-family: 'Poppins';
+    text-align: center;
+    font-size: 15px;
+    font-weight: normal;
+}
+
+.info{                          /*Additional Styling for informing users about the chalet features*/
     font-family: 'Poppins';
     text-align: justify;
     text-justify: inter-word;
 }
 
-.right-img{
+.right-img{                     /*Used for images that need to be set to the right side of the website*/
     width: 30%;
     padding-left: 50px;
     float: right;
     margin-right: 0px;
 }
-
-.chalet-img{
-    width: 50%;
-}
-
-.bullets li{
-    font-family: "Poppins";
-    text-align: center;
-    /*list-style-type: none;*/
-}
-
-ul{padding-bottom: 100px;}
