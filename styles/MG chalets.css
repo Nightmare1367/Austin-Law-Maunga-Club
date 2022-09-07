@@ -1,0 +1,28 @@
+#chalets{
+    width: 100%;  
+    text-align: center; 
+    padding: 100px;
+    background-color: #f5f3f4;
+    /*border:5px solid #e5383b;*/
+}
+#pukeko, #chalets, #kereru{
+    margin-top: 100px;
+}
+
+.container{
+    margin: 100px 60px 200px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-right: 50px;
+}
+.chalet-info{
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+
+}
+.chalet-title{
+    font-size: 40px;
+    color: #e5383b;
+}

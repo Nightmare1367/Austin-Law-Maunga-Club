@@ -13,6 +13,7 @@
 #slider figure img{                         /*Additional Styling for the images*/
     width: 20%;
     float: left;
+    border-radius: 20px;
 }
 
 @keyframes slider {                         /*Used to determine which image shows at each slide*/

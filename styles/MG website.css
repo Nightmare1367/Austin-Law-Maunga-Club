@@ -1,21 +1,20 @@
 html{                               /*Setting the wesbite dimensions after adding the side navigation bar*/
     scroll-behavior: smooth;
-    margin: 0 0 0 350px;
+    margin-left: 290px;
+    font-family: 'Poppins';
+}
+body  {
+    overflow-x: hidden;
 }
 
 /*ID's for each section*/
 #about{
     width: 1100px;
+    background-color: white;
+    margin-left: 60px;
 }
 
-#chalets{
-    width: 1100px;
-    margin-top: 100px;  
-    text-align: center; 
-    /*border:5px solid #e5383b;*/
-}
-
-/*The side navigation bar*/
+/*The side navigation bar starts*/
 .sidenav{
     height: 100%;
     width: 300px; /*How wide the side bar will be*/
@@ -26,22 +25,34 @@ html{                               /*Setting the wesbite dimensions after addin
     background-color: #343a40;  /*Colour of the side bad*/
     overflow-x: hidden; /* Disable horizontal scroll */
     font-family: 'Poppins'; /*The font that will be used*/
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 /*Side bar navigation links*/
 .sidenav a {
-    padding: 20px 6px 6px 32px;     /*Padding of each link*/
+    padding: 20px 0 20px 10px;     /*Padding of each link*/
     text-decoration: none;          /*Removes the underline under each link*/
     font-size: 25px;                /*Size of the text*/
     color: white;               /*Colour of the text for the links*/
-    display: block;
+    display: block;    
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.sidenav ul li{
+    list-style: none;
 }
 
 /*When hovering on the buttons on the side navigation bar*/
 .sidenav a:hover{
-    background-color: #4f565c;
+    background-color: #50575e;
 }
+.active{
+    background-color: #50575e;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+/*Side Navigation Bar ends*/
 
 /*Dimensions for the Maunga Club Logo*/
 .logo{
@@ -62,51 +73,18 @@ html{                               /*Setting the wesbite dimensions after addin
     border:5px solid #e5383b;
 }
 
-/*Styling for the text*/
-.big-title{                     /*Styling for my Maunga Club when you enter the page*/
-    font-size:50px;
-    font-family: 'Poppins';
-}
-
-.title{                         /*Styling for the title of each section*/
-    color: #e5383b;
-    font-size: 40px;
-    font-family: 'Poppins';
-    text-align: left;
-    margin: 0 0 0 0;
-}
-
-.subtitle{                      /*Styling for the chalets*/
-    color: #e5383b;
-    font-size: 40px;
-    font-family: 'Poppins';
-    margin: 0 0 0 0;
-    padding-top: 20px;
-}
-
-p{                              /*Styling for my paragraphs*/
-    padding-top: 10px;
-    font-family: 'Poppins';
-    text-align: justify;
-    text-justify: inter-word;
-}
-
-h3{                             /*Styling for text when informing users of the chalet features*/
-    font-family: 'Poppins';
-    text-align: center;
-    font-size: 15px;
-    font-weight: normal;
-}
-
-.info{                          /*Additional Styling for informing users about the chalet features*/
-    font-family: 'Poppins';
-    text-align: justify;
-    text-justify: inter-word;
-}
-
+/*Styling for images*/
 .right-img{                     /*Used for images that need to be set to the right side of the website*/
     width: 30%;
     padding-left: 50px;
     float: right;
     margin-right: 0px;
+}
+.left-img{
+    width:90%;
+    float: left;
+}
+
+.bg{
+    width: 100%;
 }
