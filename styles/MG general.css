@@ -3,8 +3,13 @@ html{                               /*Setting the wesbite dimensions after addin
     margin-left: 290px;
     font-family: 'Poppins';
 }
+
 body  {
     overflow-x: hidden;
+}
+footer{
+    text-align: center;
+    padding: 50px;
 }
 
 /*ID's for each section*/
@@ -25,11 +30,11 @@ body  {
     background-color: #343a40;  /*Colour of the side bad*/
     overflow-x: hidden; /* Disable horizontal scroll */
     font-family: 'Poppins'; /*The font that will be used*/
-    padding-top: 150px;
+
 }
 
 /*Side bar navigation links*/
-.sidenav a {
+.sidenav a{
     padding: 20px 0 20px 10px;     /*Padding of each link*/
     text-decoration: none;          /*Removes the underline under each link*/
     font-size: 25px;                /*Size of the text*/
@@ -44,21 +49,21 @@ body  {
 }
 
 /*When hovering on the buttons on the side navigation bar*/
-.sidenav a:hover{
+ul a:hover{
     background-color: #50575e;
 }
+
 .active{
     background-color: #50575e;
     border-radius: 20px;
     margin-right: 40px;
 }
-/*Side Navigation Bar ends*/
 
-/*Dimensions for the Maunga Club Logo*/
-.logo{
-    width: 200px;
-    padding-right: 10px;
+.chalet-sidenav a{
+    padding-left: 50px;
 }
+
+/*Side Navigation Bar ends*/
 
 .round{
     border-radius: 5px;
@@ -73,18 +78,6 @@ body  {
     border:5px solid #e5383b;
 }
 
-/*Styling for images*/
-.right-img{                     /*Used for images that need to be set to the right side of the website*/
-    width: 30%;
-    padding-left: 50px;
-    float: right;
-    margin-right: 0px;
-}
-.left-img{
-    width:90%;
-    float: left;
-}
-
-.bg{
-    width: 100%;
+.footer-text{
+    text-align: center;
 }

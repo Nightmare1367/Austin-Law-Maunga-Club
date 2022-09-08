@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--CSS Styling Files-->
-    <link rel="stylesheet" href="../styles/MG website.css">
+    <link rel="stylesheet" href="../styles/MG general.css">
     <link rel="stylesheet" href="../styles/MG image slider.css">
     <link rel="stylesheet" href="../styles/MG chalets.css">
     <link rel="stylesheet" href="../styles/MG text.css">
-
+    <link rel="stylesheet" href="../styles/MG signup.css">
+    <link rel="stylesheet" href="../styles/MG Images.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,13 +18,16 @@
     <title>Muanga Club</title>          <!--Title of the tab-->
 </head>
     <div id="mySidenav" class="sidenav">                                <!--Side Navigation Bar Section-->
+        <a href="#top"><img class = "logo"src="../img/Maunga_Club_white.png" alt="Maunga Club Logo"></a>
         <ul>
-            <a><img class = "logo"src="../img/Maunga_Club_white.png" alt="Maunga Club Logo"></a>
+            
             <li class="links"><a href="#home">Home</a></li>
             <li class="links"><a href="#chalets">Chalets</a></li>
-            <li class="links"><a href="#kakapo">Kākāpo</a></li>
-            <li class="links"><a href="#pukeko">Pūkeko</a></li>
-            <li class="links"><a href="#kereru">Kererū</a></li>
+            <div class="chalet-sidenav">
+                <li class="links"><a href="#kakapo">&#8250; Kākāpo</a></li>
+                <li class="links"><a href="#pukeko">&#8250; Pūkeko</a></li>
+                <li class="links"><a href="#kereru">&#8250; Kererū</a></li>
+            </div>
             <li class="links"><a href="#signup">Sign Up</a></li>
         </ul> 
     </div>
@@ -43,13 +48,21 @@
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </section >
 
+
 <section id="chalets">                                                  <!--Chalets section-->
-    <h1 class="title">Chalets.</h1>
-    <hr class="round">
+    <div style="padding-left:60px;">
+        <h1 class="title">Chalets.</h1>
+        <hr class="round">
+        <p>Maunga Club has three types of chalets you can choose from. Kakapo, Pukeko and Kereru. Below shows a brief description of each chalet. In order to book a chalet, you would need to become a club member which you can sign up at the end.
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eum obcaecati culpa saepe iste ratione. Neque ut cupiditate ullam, eveniet quidem aliquid perspiciatis nostrum officiis dolore eius assumenda necessitatibus earum nisi?</p>
+    </div>
+    <div>
+        <img class="chalet-img"src="../img/kereru/adult_bedroomsame.jpg" alt="Kererū Adult Bedroom">
+    </div>
 </section>
 
 <section id="kakapo" class="container">                             <!--Kakapo Section-->
-    <div id="slider">                                               <!--Kakapo Image Slider-->
+    <div id="slider" data-aos="fade-right" data-aos-duration="2000"> <!--Kakapo Image Slider-->
         <figure>
             <img src="../img/kakapo/cabin_exterior_cropped.jpg" alt="Kākāpo Cabin Exterior">
             <img src="../img/kakapo/cabin_viewsame.jpg" alt="Kākāpo Cabin View">
@@ -58,22 +71,21 @@
             <img src="../img/kakapo/cabin_exterior_cropped.jpg">
         </figure>
     </div>
-    <div class="info">                                              <!--Kakapo Text-->
+    <div class="info" data-aos="fade-left" data-aos-duration="2000">                                              <!--Kakapo Text-->
         <h1 class="chalet-title">Kākāpo.</h1>
-        <p class="chalet-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quisquam ipsam neque architecto recusandae hic consequatur culpa. Nisi laboriosam aspernatur et tenetur! 
-            Rerum cupiditate animi vitae eaque placeat laudantium asperiores maxime.</p>
+        <p class="chalet-info">The Kakapo Chalet is the largest chalet of the three and it has a large kitchen, dining and living area. The Kakapo chalet has great amenities. 
+            The Kakapo Chalet is able to accommodate a maximum of 10 adults and 30 children.</p>
     </div>
 </section>
 
 <section id="pukeko" class="container">                             <!--Pukeko Section-->
-    <div class="info">                                              <!--Pukeko Text-->
+    <div class="info" data-aos="fade-right" data-aos-duration="2000">                                              <!--Pukeko Text-->
         <h1 class="chalet-title">Pūkeko.</h1>
-        <h1 class="chalet-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quisquam ipsam neque architecto recusandae hic consequatur culpa. Nisi laboriosam aspernatur et tenetur! 
-            Rerum cupiditate animi vitae eaque placeat laudantium asperiores maxime.</h1>
+        <h1 class="chalet-info">The Pukeko Chalet is great for large groups or families that are wanting chalet to themselves but to ensure a comfortable, a limit to the number of children and adults must be set.
+            The Pukeko Chalet is able to accommodate a maximum of 6 adults and 15 children. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quisquam ipsam neque architecto recusandae hic consequatur culpa. Nisi laboriosam aspernatur et tenetur! Rerum cupiditate animi vitae eaque placeat laudantium asperiores maxime.</h1>
     </div>
-    <div id="slider">                                               <!--Pukeko Image Slider-->
+    <div id="slider" data-aos="fade-left" data-aos-duration="2000"><!--Pukeko Image Slider-->
         <figure>
             <img src="../img/pukeko/chalet_exteriorsame.jpg" alt="Pūkeko Cabin Exterior">
             <img src="../img/pukeko/chalet_viewsame.jpg" alt="Pūkeko Cabin View">
@@ -85,7 +97,7 @@
 </section>
 
 <section id="kereru" class="container">                             <!--Kereru Section-->
-    <div id="slider">                                               <!--Kereru Image Slider-->
+    <div id="slider" data-aos="fade-right" data-aos-duration="2000"><!--Kereru Image Slider-->
         <figure>
             <img src="../img/kereru/cabin_exteriorsame.jpg" alt="Kererū Cabin Exterior">
             <img src="../img/kereru/kitchensame.jpg" alt="Kererū Kitchen">
@@ -94,15 +106,39 @@
             <img src="../img/kereru/cabin_exteriorsame.jpg">
         </figure>
     </div>
-    <div class="info">                                              <!--Kereru Text-->
+    <div class="info" data-aos="fade-left" data-aos-duration="2000">                                              <!--Kereru Text-->
         <h1 class="chalet-title">Kererū.</h1>
-        <h1 class="chalet-info">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-            Quisquam ipsam neque architecto recusandae hic consequatur culpa. Nisi laboriosam aspernatur et tenetur! 
-            Rerum cupiditate animi vitae eaque placeat laudantium asperiores maxime.</h1>
+        <h1 class="chalet-info">The Kereru Chalet is a great option for families especially those with 2 to 4 children. The Kereru chalet has 2 bedrooms and a seperate living area.
+            The Kereru Chalet is able to accommodate a maximum of 2 adults and 4 children. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Quisquam ipsam neque architecto recusandae hic consequatur culpa. Nisi laboriosam aspernatur et tenetur! Rerum cupiditate animi vitae eaque placeat laudantium asperiores maxime.</h1>
     </div>
 </section>
 
+<section class="signup" class="signup">
+    <div>
+        <h1 class="club-member">Become a Club Member</h1>
+        <h1 class="club-member">Sign up to gain these benefits</h1>
+    </div>
+    <div class="club-member">
+        <h1>To become a CLUB MEMBER!</h1>
+        <h1>Send us your:</h1>
+        <ul>
+            <li>Full Name</li>
+            <li>Physical Address</li>
+            <li>Proof of Address (eg. Copy of Power Bill)</li>
+            <li>Proof of ID (Driver's License or Passport)</li>
+        </ul>
+    </div>
+
+</section>
 
 <script src="../js/MG website.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
+<footer>
+    <p class="footer-text">&copy; Maunga Club - Website by Austin Law</p>
+</footer>
 </html>

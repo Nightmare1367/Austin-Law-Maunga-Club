@@ -1,7 +1,9 @@
 #chalets{
-    width: 100%;  
+    width: 100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 100px 0 100px 0;
     text-align: center; 
-    padding: 100px;
     background-color: #f5f3f4;
     /*border:5px solid #e5383b;*/
 }
@@ -16,6 +18,14 @@
     gap: 10px;
     margin-right: 50px;
 }
+.chalet-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    margin-right: 100px;
+}
+
 .chalet-info{
     font-size: 18px;
     font-weight: normal;

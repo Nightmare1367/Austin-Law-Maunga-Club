@@ -1,0 +1,23 @@
+
+/*Dimensions for the Maunga Club Logo*/
+.logo{
+    width: 200px;
+    padding: 30px 10px 0px 30px;
+}
+
+/*Styling for images*/
+.right-img{                     /*Used for images that need to be set to the right side of the website*/
+    width: 30%;
+    padding-left: 50px;
+    float: right;
+    margin-right: 0px;
+}
+.left-img{
+    width:90%;
+    float: left;
+}
+
+.chalet-img{
+    width: 70%;
+    border-radius: 20px;
+}
