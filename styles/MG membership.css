@@ -1,0 +1,53 @@
+.membership{
+	width: 1100px;
+	background-color: #f5f3f4;
+	margin: auto;
+	border-radius: 10px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 2fr;
+
+}
+input[type=text], select, textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #f5f3f4;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+input[type=file]{
+	width: 96%;
+	padding: 12px;
+	border-radius: 4px;
+	margin: 4px 0px 16px 0px;
+}
+
+input[type=submit] {
+	background-color: #cccccc;
+	color: white;
+	margin-top: 20px;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color:#ADADAD;
+}
+  
+.signup-form{
+	padding: 10px;
+}
+.bg-img{
+	border-radius: 10px 0px 0px 10px;
+	width: 100%;
+	background: url(../img/mountain_view_1.jpg)
+}
+
+.clubinfo{
+	padding: 20px;
+	text-align: center;
+}
