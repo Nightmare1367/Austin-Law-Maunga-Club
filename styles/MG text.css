@@ -40,3 +40,17 @@ h3{                             /*Styling for text when informing users of the c
     text-justify: inter-word;
     padding:0 50px 0 50px;
 }
+
+.chalet-info{               /*Styling for the description of chalets*/
+    font-size: 18px;
+    font-weight: normal;
+    text-align: justify;
+}
+.chalet-title{              /*Styling for the title of each chalet*/
+    font-size: 40px;
+    color: #e5383b;
+}
+
+.footer-text{               /*Styling for the footers text*/
+    text-align: center;
+}

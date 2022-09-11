@@ -7,6 +7,7 @@ html{                               /*Setting the wesbite dimensions after addin
 body  {
     overflow-x: hidden;
 }
+
 footer{
     text-align: center;
     padding: 50px;
@@ -30,7 +31,6 @@ footer{
     background-color: #343a40;  /*Colour of the side bad*/
     overflow-x: hidden; /* Disable horizontal scroll */
     font-family: 'Poppins'; /*The font that will be used*/
-
 }
 
 /*Side bar navigation links*/
@@ -62,9 +62,9 @@ ul a:hover{
 .chalet-sidenav a{
     padding-left: 50px;
 }
-
 /*Side Navigation Bar ends*/
 
+/*Divider used under the titles*/
 .round{
     border-radius: 5px;
     float: left;
@@ -76,8 +76,4 @@ ul a:hover{
     border-radius: 5px;
     width:100px;
     border:5px solid #e5383b;
-}
-
-.footer-text{
-    text-align: center;
 }
